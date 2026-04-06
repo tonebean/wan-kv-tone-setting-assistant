@@ -69,7 +69,7 @@ description: Brand KV tone-setting assistant for turning vague brand requests in
 
 ### 这套 skill 真正的特色
 
-它和普通聊天生图最大的区别，不在于 prompt 更长，而在于固定多做了四件事：
+它和直接生图最大的区别，不在于 prompt 更长，而在于固定多做了四件事：
 
 1. 不直接跳到生成  
    先判断这张图的品牌任务和第一眼感受目标。
@@ -201,7 +201,7 @@ description: Brand KV tone-setting assistant for turning vague brand requests in
 - 是品牌调性不对，还是产品辨识度不够
 - 是太通用，还是太情绪化，还是太概念化
 
-这一步是这套 skill 和普通聊天生图最该拉开差距的地方。  
+这一步是这套 skill 和直接生图最该拉开差距的地方。  
 它不是只给方向，而是帮用户排除错误方向。
 
 ### 2.2 品牌一致性判断
@@ -403,7 +403,7 @@ description: Brand KV tone-setting assistant for turning vague brand requests in
 
 ## 默认回答方式
 
-这套 skill 默认面向真实使用和教程演示，回答方式要有条理，但不要啰嗦。
+这套 skill 默认面向真实使用，回答方式要有条理，但不要啰嗦。
 
 默认要求：
 
@@ -430,7 +430,7 @@ description: Brand KV tone-setting assistant for turning vague brand requests in
 - 如果用户要真实出图，先确认是否已具备调用条件，再继续
 - 如果首图已经出来，优先回答“能不能用、该不该改、改哪里”，不要重讲前面整套流程
 
-教程友好原则：
+可读性原则：
 
 - 输出要让第一次用的人一眼知道现在在做什么
 - 每一步都尽量给用户一个明确动作，例如“选这条”“直接出图”“先局部改”
@@ -456,7 +456,7 @@ description: Brand KV tone-setting assistant for turning vague brand requests in
 - 当前最该避免的跑偏方向
 
 结果说明不是可选附件，而是这套 skill 的核心价值展示。  
-如果拿掉这部分，它就会更像普通聊天生图，而不是“品牌 KV 定调助手”。
+如果拿掉这部分，它就会更像直接生图，而不是“品牌 KV 定调助手”。
 
 ### 下一步判断
 
